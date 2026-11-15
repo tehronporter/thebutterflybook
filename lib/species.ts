@@ -1,0 +1,10 @@
+import monarch from './species-monarch.json';
+import morpho from './species-blue-morpho.json';
+import tiger from './species-eastern-tiger-swallowtail.json';
+import buckeye from './species-common-buckeye.json';
+import zebra from './species-zebra-longwing.json';
+import lady from './species-painted-lady.json';
+export type Region = {id:string;mirrorId:string|null;naturalFill:string;label:string};
+export type Species = {id:string;slug:string;commonName:string;scientificName:string;region:string;habitat:string;wingspan:string;hostPlants:string;season:string;identification:string;fact:string;view:string;form:string;palette:string[];source:{title:string;url:string;accessed:string};svg:string;regions:Region[]};
+export const species = [monarch,morpho,tiger,buckeye,zebra,lady] as Species[];
+export const speciesBySlug = (slug:string) => species.find(s=>s.slug===slug);

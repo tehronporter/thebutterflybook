@@ -1,0 +1,10 @@
+node_modules
+.next
+.vercel
+playwright-report
+test-results
+.DS_Store
+__pycache__/
+*.pyc
+test-results/
+tsconfig.tsbuildinfo
