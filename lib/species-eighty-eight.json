@@ -1,0 +1,145 @@
+{
+  "photo": {
+    "src": "/photos/eighty-eight.webp",
+    "alt": "Eighty Eight photographed in Zamora, Ecuador",
+    "view": "Ventral view",
+    "location": "Zamora, Ecuador",
+    "credit": "DRVIP93",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diaethria_Clymena_Ecuador.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Diaethria_Clymena_Ecuador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Diaethria_Clymena_Ecuador.jpg/1280px-Diaethria_Clymena_Ecuador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "accessed": "2026-11-15"
+  },
+  "id": "01",
+  "slug": "eighty-eight",
+  "commonName": "Eighty-eight Butterfly",
+  "scientificName": "Diaethria clymena",
+  "region": "Ecuador · Andean foothills",
+  "habitat": "Humid forests and forest edges",
+  "wingspan": "about 4–5 cm",
+  "hostPlants": "Not verified for this Ecuador record",
+  "season": "Varies with local conditions",
+  "identification": "The underside carries looping black marks that can look like 88 or 89, with a red flash near the forewing.",
+  "fact": "Its wing underside can resemble the number 88 or 89. The pattern varies between individuals.",
+  "view": "ventral side view",
+  "form": "Illustration interprets the photographed Ecuadorian butterfly",
+  "palette": [
+    "#d93c39",
+    "#242424",
+    "#fff9ed",
+    "#8d9887"
+  ],
+  "source": {
+    "title": "Butterflies and Moths of North America",
+    "url": "https://www.butterfliesandmoths.org/node/5563",
+    "accessed": "2026-11-15"
+  },
+  "elevation": "Zamora foothills; exact photograph elevation unverified",
+  "fieldNotes": [
+    "The underside markings may read as 88 or 89.",
+    "A vivid red flash interrupts the black and white pattern.",
+    "The small butterfly often rests with wings closed, making the underside easiest to see."
+  ],
+  "reflection": "What small pattern did you notice only after slowing down?",
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 260\"><g fill=\"none\" stroke=\"#a4a99b\" stroke-width=\".8\" pointer-events=\"none\"><path d=\"M19 232 Q38 181 73 154 M31 221 Q18 208 11 182 M31 221 Q56 215 67 230 M258 230 Q268 190 289 166 M265 215 Q243 201 243 183 M267 205 Q286 198 295 203\"/><path d=\"M33 201 Q46 193 49 177 Q31 181 33 201 M46 183 Q64 185 72 170 Q53 164 46 183 M24 204 Q15 197 11 190 Q23 185 24 204 M252 197 Q246 185 242 181 Q260 180 252 197 M278 189 Q282 173 292 170 Q296 184 278 189\"/></g><path d=\"M218 225 C178 220 126 190 92 147 Q57 103 72 55 C90 20 138 19 177 49 Q226 89 235 153 Q240 202 218 225 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"wing-base\" role=\"button\" tabindex=\"0\" aria-label=\"Main numbered wing\" data-natural=\"#fff9ed\"/><path d=\"M76 75 Q71 47 93 34 Q130 15 175 48 Q207 72 222 112 Q166 90 117 97 Q95 91 76 75 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"top-black\" role=\"button\" tabindex=\"0\" aria-label=\"Dark upper wing band\" data-natural=\"#212121\"/><path d=\"M88 62 Q113 39 146 42 Q173 49 194 73 Q160 74 129 85 Q102 78 88 62 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"red-band\" role=\"button\" tabindex=\"0\" aria-label=\"Red upper wing flash\" data-natural=\"#d93c39\"/><path d=\"M99 36 Q120 24 146 32 Q161 41 172 51 Q144 51 120 64 Q107 55 99 36 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"white-top\" role=\"button\" tabindex=\"0\" aria-label=\"Pale upper wing patch\" data-natural=\"#f7f8ed\"/><path d=\"M79 91 Q122 96 165 90 Q207 101 229 136 L230 149 Q197 120 160 112 Q115 109 84 111 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"center-band\" role=\"button\" tabindex=\"0\" aria-label=\"Curving dark divider\" data-natural=\"#242424\"/><ellipse cx=\"137\" cy=\"127\" rx=\"41\" ry=\"30\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"digit-0-outer\" role=\"button\" tabindex=\"0\" aria-label=\"Number pattern 1, outer loop\" data-natural=\"#fffaf1\"/><ellipse cx=\"137\" cy=\"127\" rx=\"31\" ry=\"22\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"digit-0-middle\" role=\"button\" tabindex=\"0\" aria-label=\"Number pattern 1, middle loop\" data-natural=\"#212121\"/><ellipse cx=\"137\" cy=\"127\" rx=\"22\" ry=\"15\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"digit-0-inner\" role=\"button\" tabindex=\"0\" aria-label=\"Number pattern 1, inner loop\" data-natural=\"#fffaf1\"/><ellipse cx=\"141\" cy=\"126\" rx=\"12\" ry=\"7\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"digit-0-core\" role=\"button\" tabindex=\"0\" aria-label=\"Number pattern 1, central eye\" data-natural=\"#212121\"/><ellipse cx=\"170\" cy=\"180\" rx=\"43\" ry=\"31\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"digit-1-outer\" role=\"button\" tabindex=\"0\" aria-label=\"Number pattern 2, outer loop\" data-natural=\"#fffaf1\"/><ellipse cx=\"170\" cy=\"180\" rx=\"33\" ry=\"23\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"digit-1-middle\" role=\"button\" tabindex=\"0\" aria-label=\"Number pattern 2, middle loop\" data-natural=\"#212121\"/><ellipse cx=\"170\" cy=\"180\" rx=\"24\" ry=\"16\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"digit-1-inner\" role=\"button\" tabindex=\"0\" aria-label=\"Number pattern 2, inner loop\" data-natural=\"#fffaf1\"/><ellipse cx=\"174\" cy=\"179\" rx=\"14\" ry=\"8\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"digit-1-core\" role=\"button\" tabindex=\"0\" aria-label=\"Number pattern 2, central eye\" data-natural=\"#212121\"/><path d=\"M75 102 Q72 173 215 224 Q226 217 231 204 Q125 179 75 102 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"outer-rim\" role=\"button\" tabindex=\"0\" aria-label=\"Outer wing rim\" data-natural=\"#212121\"/><ellipse cx=\"229\" cy=\"166\" rx=\"8\" ry=\"9\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"head\" role=\"button\" tabindex=\"0\" aria-label=\"Butterfly head\" data-natural=\"#262626\"/><path d=\"M226 172 Q245 181 238 209 Q232 230 219 226 Q225 207 220 188 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"body\" role=\"button\" tabindex=\"0\" aria-label=\"Butterfly body\" data-natural=\"#4a4a42\"/><g fill=\"none\" stroke=\"#222\" stroke-width=\".95\" pointer-events=\"none\"><path d=\"M231 159 Q245 140 255 143 M228 159 Q231 141 240 132 M235 202 Q250 215 260 218 M225 210 Q233 225 240 235 M78 80 Q130 108 218 148 M86 119 Q126 180 217 209\"/><path d=\"M83 97 Q82 119 94 137 M87 104 Q106 119 112 119 M91 114 Q99 133 110 139 M108 88 Q120 98 132 100 M123 80 Q136 92 148 93 M149 76 Q158 84 171 88 M176 77 Q184 88 197 96\"/></g></svg>",
+  "regions": [
+    {
+      "id": "wing-base",
+      "mirrorId": null,
+      "naturalFill": "#fff9ed",
+      "label": "Main numbered wing"
+    },
+    {
+      "id": "top-black",
+      "mirrorId": null,
+      "naturalFill": "#212121",
+      "label": "Dark upper wing band"
+    },
+    {
+      "id": "red-band",
+      "mirrorId": null,
+      "naturalFill": "#d93c39",
+      "label": "Red upper wing flash"
+    },
+    {
+      "id": "white-top",
+      "mirrorId": null,
+      "naturalFill": "#f7f8ed",
+      "label": "Pale upper wing patch"
+    },
+    {
+      "id": "center-band",
+      "mirrorId": null,
+      "naturalFill": "#242424",
+      "label": "Curving dark divider"
+    },
+    {
+      "id": "digit-0-outer",
+      "mirrorId": null,
+      "naturalFill": "#fffaf1",
+      "label": "Number pattern 1, outer loop"
+    },
+    {
+      "id": "digit-0-middle",
+      "mirrorId": null,
+      "naturalFill": "#212121",
+      "label": "Number pattern 1, middle loop"
+    },
+    {
+      "id": "digit-0-inner",
+      "mirrorId": null,
+      "naturalFill": "#fffaf1",
+      "label": "Number pattern 1, inner loop"
+    },
+    {
+      "id": "digit-0-core",
+      "mirrorId": null,
+      "naturalFill": "#212121",
+      "label": "Number pattern 1, central eye"
+    },
+    {
+      "id": "digit-1-outer",
+      "mirrorId": null,
+      "naturalFill": "#fffaf1",
+      "label": "Number pattern 2, outer loop"
+    },
+    {
+      "id": "digit-1-middle",
+      "mirrorId": null,
+      "naturalFill": "#212121",
+      "label": "Number pattern 2, middle loop"
+    },
+    {
+      "id": "digit-1-inner",
+      "mirrorId": null,
+      "naturalFill": "#fffaf1",
+      "label": "Number pattern 2, inner loop"
+    },
+    {
+      "id": "digit-1-core",
+      "mirrorId": null,
+      "naturalFill": "#212121",
+      "label": "Number pattern 2, central eye"
+    },
+    {
+      "id": "outer-rim",
+      "mirrorId": null,
+      "naturalFill": "#212121",
+      "label": "Outer wing rim"
+    },
+    {
+      "id": "head",
+      "mirrorId": null,
+      "naturalFill": "#262626",
+      "label": "Butterfly head"
+    },
+    {
+      "id": "body",
+      "mirrorId": null,
+      "naturalFill": "#4a4a42",
+      "label": "Butterfly body"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import json,re,glob,xml.etree.ElementTree as ET
-assert len(glob.glob('lib/species-*.json'))==6
-for file in glob.glob('lib/species-*.json'):
+active={'eighty-eight','glasswing','blue-morpho'}
+for file in [f'lib/species-{slug}.json' for slug in sorted(active)]:
  s=json.load(open(file));root=ET.fromstring(s['svg']);regions=s['regions'];ids=[r['id'] for r in regions];assert len(ids)==len(set(ids)),file
  assert len(regions)>=10,file
  assert all(re.fullmatch('#[0-9A-Fa-f]{6}',r['naturalFill']) for r in regions),file

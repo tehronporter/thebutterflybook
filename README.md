@@ -1,55 +1,43 @@
-# The Butterfly Book
+# Stillness in Flight · The Butterfly Book
 
-An interactive, photo-led coloring field guide for six butterflies. Built with Next.js 15, React 19, TypeScript, local browser storage, editable SVG artwork adapted from the supplied prototype, locally stored licensed photographs, and a reproducible PDF.
+An interactive coloring field guide and printable Ecuador sampler. The featured species are the Eighty-eight Butterfly (*Diaethria clymena*), Andromica Glasswing (*Greta andromica*), and Blue Morpho (*Morpho helenor*). The app pairs photographs taken in Ecuador with short biological notes, elevation context, reflection prompts, and detailed vector coloring art.
 
-## Run locally
+## Run and verify
 
 ```bash
 npm install
 npm run dev
-```
-
-Open `http://localhost:3000`. No API keys, database, account, or external runtime service is required.
-
-## Checks and build
-
-```bash
-npm run validate
-npm test
 npm run lint
 npm run typecheck
+npm test
 npm run build
-npm run e2e     # requires: npx playwright install webkit
-npm run book    # requires Python 3 and pymupdf
+BASE_URL=http://localhost:3000 npm run e2e
+python3 scripts/validate_art.py
+python3 scripts/generate_book.py
 ```
 
-The app has `/`, `/butterflies/[slug]`, `/collection`, `/print`, and `/credits`. `public/downloads/the-butterfly-book-volume-01.pdf` is a **10-page** US Letter PDF with cover, instructions, six species, journal, and sources. The Print page also lets visitors choose species, US Letter or A4, natural reference, and their own colors for browser printing.
+End-to-end tests need Playwright WebKit (`npx playwright install webkit`). PDF generation needs Python 3, Pillow, and PyMuPDF. The website itself needs no API keys, account, or server database.
 
-## Data and artwork
+## Product
 
-Species data and wing geometry live in `lib/species-*.json`. Each region has a stable ID, paired region ID, accessible label, and natural color. `scripts/validate_art.py` checks IDs, pairs, metadata, and colors. `scripts/generate_book.py` builds the vector PDF from the same SVG geometry and content. `scripts/extract_reference.py` records how the original user-supplied HTML prototype was parsed; edited JSON is the current authoring source.
+- `/` introduces the three Ecuador butterflies and links to each coloring studio.
+- `/butterflies/[slug]` provides photographic reference, three field notes, an elevation note, reflection prompt, saved coloring, undo/redo, symmetry where applicable, natural colors, PNG/SVG download, and a private sighting journal.
+- `/collection` shows progress and offers versioned JSON backup/import.
+- `/print` offers a ten-page US Letter PDF and custom browser printing with selectable species, field guide pages, saved colors, and US Letter or A4.
+- `/credits` links every photographer, photo license, file page, and research source.
 
-To revise artwork: edit the SVG and its `regions` array together, keep IDs stable so saved color work remains compatible, run `npm run validate`, `npm test`, regenerate the book, and visually inspect all six blank and natural views plus the resulting PDF. For publication review, compare dorsal wing shape, sex or form, markings, palette, and size against named specimen photographs and have a lepidopterist review the art. Current illustrations are **simplified and provisional**. They are coloring art and broad visual references, not definitive identification plates. The six reference photographs are stored locally under `public/photos`, not hotlinked. Five are CC0 or public domain; the Blue Morpho image is CC BY 3.0 and credits Thomas Bresson wherever it appears. All photographer names, licenses, license links, source pages, and original image URLs are recorded in the species JSON and displayed on `/credits`. Run `python3 scripts/prepare_photos.py` to re-fetch and optimize them. The PDF includes photo attribution and source links.
+The PDF at `public/downloads/the-butterfly-book-volume-01.pdf` has a photographic front cover, introduction, three paired field-guide/coloring spreads, a matching line-art back cover, and sources. Each spread places the photograph and notes on the left and a botanical vector coloring page on the right. Tablet PDF apps can import it, though actual stylus behavior depends on the app.
 
-Source-backed facts and taxonomy use Butterflies and Moths of North America, University of Florida IFAS Extension, and Florida Museum of Natural History. Each species page links to its source; source URLs and the access date (15 November 2026) are in its JSON. `Morpho peleides` also appears in newer literature as `Morpho helenor peleides`; taxonomy merits editorial review before commercial publication. Source pages describe regional, sex, and seasonal variation, so range and flight seasons are approximate.
+## Data and rights
 
-## Local data
+Species records and SVG artwork live in `lib/species-*.json`. The three active species are selected in `lib/species.ts`; earlier species records remain in the repository so existing saved browser data remains readable. `scripts/validate_art.py` checks the active vector regions and paired coloring IDs. `scripts/generate_book.py` uses the same vector artwork for the PDF. Photographs live in `public/photos` and can be re-fetched using `scripts/prepare_photos.py`.
 
-Coloring, completion, and sighting notes are saved only in this browser's localStorage. The Collection page exports/imports versioned JSON backups. Import validates the schema and asks before replacement. Corrupted stored data is preserved and surfaced as an error. A sighting is a personal record, not verified identification. There is no cloud sync.
+The photos are licensed CC BY-SA 4.0, CC BY-SA 2.0, and CC BY 4.0 respectively. Each transformed WebP retains its photo's license. Photographer and license attribution appear beside images, on `/credits`, and in the PDF. Commercial use is allowed under these licenses, with attribution and share-alike obligations where applicable. The copyright and license records were reviewed 15 November 2026. Species notes link to Butterflies and Moths of North America, Florida Museum of Natural History, and primary research articles. When an exact elevation for a photographed individual was unavailable, the app says so rather than assigning one.
 
-## Deploy
+The illustrations are creative interpretations, not diagnostic identification plates. They need expert review before scientific publication. The Blue Morpho art began with the supplied prototype; the Eighty-eight and Glasswing drawings were created for this sampler.
 
-The source is hosted at [tehronporter/thebutterflybook](https://github.com/tehronporter/thebutterflybook). The `main` branch is connected to the new Vercel project `the-butterfly-book` for automatic production deploys. The Git-connected production site is [the-butterfly-book.vercel.app](https://the-butterfly-book.vercel.app). The earlier CLI deployment remains at [thebutterflybook.vercel.app](https://thebutterflybook.vercel.app). The project is static friendly and can also deploy directly to Vercel:
+## Storage and deployment
 
-```bash
-npx vercel --prod
-```
+Colors and sighting notes stay in this browser's localStorage. The Collection page can export and import a backup. Legacy records remain valid in storage even though the Ecuador sampler is now the featured edition. There is no cloud sync.
 
-Vercel requires no application environment variables. Verify public access to the five routes, six species pages, photos, and PDF after deploying.
-
-## Implementation notes and limits
-
-- Six species have separate SVG geometry and natural palettes, mirrored coloring, undo and redo, erase, completion, sightings, PNG/SVG export, a local collection, backup, and printable pages.
-- The detailed line illustrations are source-informed simplifications; their individual forms still need scientific art review. Blue Morpho dorsal color cannot reproduce true iridescence in flat SVG.
-- Browser print output depends on the user's print settings. The downloadable edition is a fixed US Letter PDF; A4 is available for the custom browser print flow.
-- Automated WebKit checks cover desktop and narrow/mobile layouts. Actual iPhone Safari hardware has not been tested.
+The repository is [tehronporter/thebutterflybook](https://github.com/tehronporter/thebutterflybook). The Git-connected Vercel project serves [the-butterfly-book.vercel.app](https://the-butterfly-book.vercel.app). The original shared address, [thebutterflybook.vercel.app](https://thebutterflybook.vercel.app), is a separate Vercel project and must be deployed separately after each change.

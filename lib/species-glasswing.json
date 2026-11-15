@@ -1,0 +1,137 @@
+{
+  "photo": {
+    "src": "/photos/glasswing.webp",
+    "alt": "Glasswing photographed in Mindo, Ecuador",
+    "view": "Side view",
+    "location": "Mindo, Ecuador",
+    "credit": "Alexey Yakovlev",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greta_andromica_(Nymphalidae-_Danainae-_Ithomiini)_(31355927363).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Greta_andromica_%28Nymphalidae-_Danainae-_Ithomiini%29_%2831355927363%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumbnailUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Greta_andromica_%28Nymphalidae-_Danainae-_Ithomiini%29_%2831355927363%29.jpg/1280px-Greta_andromica_%28Nymphalidae-_Danainae-_Ithomiini%29_%2831355927363%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "accessed": "2026-11-15"
+  },
+  "id": "02",
+  "slug": "glasswing",
+  "commonName": "Andromica Glasswing",
+  "scientificName": "Greta andromica",
+  "region": "Ecuador · cloud forest",
+  "habitat": "Humid Andean forests, including the Mindo area",
+  "wingspan": "small clearwing; varies by sex and form",
+  "hostPlants": "Not verified for this Ecuador record",
+  "season": "Varies with local conditions",
+  "identification": "Transparent wing panels, warm brown borders, and pale patches near the tips.",
+  "fact": "Tiny bristle-like scales help create transparent wing areas, while other scales form pale marks.",
+  "view": "dorsal view",
+  "form": "Representative clearwing; photographed individual shown from the side",
+  "palette": [
+    "#593d37",
+    "#e9ece2",
+    "#f7f5e8",
+    "#9fb7ac"
+  ],
+  "source": {
+    "title": "Florida Museum of Natural History · Ecuador rearing records",
+    "url": "https://www.floridamuseum.ufl.edu/neotropica/image-archives/ithomiini-immature-stages/greta-andromica/",
+    "accessed": "2026-11-15"
+  },
+  "elevation": "Ecuador study sites: 1,000–2,700 m; not a full species range",
+  "fieldNotes": [
+    "Clear panels let the background show through the wings.",
+    "Bristle-like scales differ from the broad scales on opaque areas.",
+    "Florida Museum records this species from Ecuadorian Andean study sites."
+  ],
+  "reflection": "Where did you notice light passing through something today?",
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 260\"><g fill=\"none\" stroke=\"#a4a99b\" stroke-width=\".8\" pointer-events=\"none\"><path d=\"M18 224 Q57 187 96 174 M22 220 Q18 200 25 187 M42 204 Q46 185 62 177 M267 224 Q254 194 230 177 M269 215 Q283 201 289 181\"/><path d=\"M23 191 Q15 182 13 174 Q28 174 23 191 M51 191 Q53 178 68 174 Q68 190 51 191 M258 202 Q244 196 237 184 Q255 182 258 202 M276 200 Q278 183 290 181 Q292 194 276 200\"/></g><g transform=\"\"><path d=\"M150 117 C128 80 89 28 47 26 Q30 61 43 110 Q65 145 150 139 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"left-fore\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing outer rim\" data-natural=\"#563b35\"/><path d=\"M137 111 Q103 63 53 36 Q42 79 57 109 Q82 129 137 129 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"left-fore-window\" role=\"button\" tabindex=\"0\" aria-label=\"Left clear forewing panel\" data-natural=\"#e9ece2\"/><path d=\"M52 34 Q75 35 95 57 Q77 52 56 61 Q50 49 52 34 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"left-fore-tip\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing pale tip\" data-natural=\"#f7f5e8\"/><path d=\"M150 138 Q103 132 69 142 Q65 197 111 220 Q143 224 150 171 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"left-hind\" role=\"button\" tabindex=\"0\" aria-label=\"Left hindwing outer rim\" data-natural=\"#593d37\"/><path d=\"M143 145 Q112 140 78 149 Q78 184 112 208 Q137 204 143 168 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"left-hind-window\" role=\"button\" tabindex=\"0\" aria-label=\"Left clear hindwing panel\" data-natural=\"#e9ece2\"/><path d=\"M77 149 Q91 141 104 145 Q91 155 81 170 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"left-hind-spot\" role=\"button\" tabindex=\"0\" aria-label=\"Left pale hindwing mark\" data-natural=\"#f7f5e8\"/><g fill=\"none\" stroke=\"#513d39\" stroke-width=\".75\" pointer-events=\"none\"><path d=\"M145 133 Q93 120 50 42 M141 128 Q96 98 61 63 M141 123 Q97 89 79 48 M141 143 Q112 166 109 207 M141 150 Q98 149 79 171 M141 158 Q120 189 111 207\"/><path d=\"M64 69 Q74 78 82 82 M79 83 Q90 91 98 94 M91 96 Q105 104 112 108 M84 155 Q96 160 103 169 M96 181 Q108 181 115 191\"/></g></g><g transform=\"translate(300 0) scale(-1 1)\"><path d=\"M150 117 C128 80 89 28 47 26 Q30 61 43 110 Q65 145 150 139 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"right-fore\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing outer rim\" data-natural=\"#563b35\"/><path d=\"M137 111 Q103 63 53 36 Q42 79 57 109 Q82 129 137 129 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"right-fore-window\" role=\"button\" tabindex=\"0\" aria-label=\"Right clear forewing panel\" data-natural=\"#e9ece2\"/><path d=\"M52 34 Q75 35 95 57 Q77 52 56 61 Q50 49 52 34 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"right-fore-tip\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing pale tip\" data-natural=\"#f7f5e8\"/><path d=\"M150 138 Q103 132 69 142 Q65 197 111 220 Q143 224 150 171 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"right-hind\" role=\"button\" tabindex=\"0\" aria-label=\"Right hindwing outer rim\" data-natural=\"#593d37\"/><path d=\"M143 145 Q112 140 78 149 Q78 184 112 208 Q137 204 143 168 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"right-hind-window\" role=\"button\" tabindex=\"0\" aria-label=\"Right clear hindwing panel\" data-natural=\"#e9ece2\"/><path d=\"M77 149 Q91 141 104 145 Q91 155 81 170 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"right-hind-spot\" role=\"button\" tabindex=\"0\" aria-label=\"Right pale hindwing mark\" data-natural=\"#f7f5e8\"/><g fill=\"none\" stroke=\"#513d39\" stroke-width=\".75\" pointer-events=\"none\"><path d=\"M145 133 Q93 120 50 42 M141 128 Q96 98 61 63 M141 123 Q97 89 79 48 M141 143 Q112 166 109 207 M141 150 Q98 149 79 171 M141 158 Q120 189 111 207\"/><path d=\"M64 69 Q74 78 82 82 M79 83 Q90 91 98 94 M91 96 Q105 104 112 108 M84 155 Q96 160 103 169 M96 181 Q108 181 115 191\"/></g></g><ellipse cx=\"150\" cy=\"123\" rx=\"7\" ry=\"8\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"head\" role=\"button\" tabindex=\"0\" aria-label=\"Butterfly head\" data-natural=\"#4a3b35\"/><path d=\"M146 129 Q149 125 154 129 Q159 160 154 190 Q150 201 146 190 Q142 159 146 129 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.45\" stroke-linejoin=\"round\" data-region=\"body\" role=\"button\" tabindex=\"0\" aria-label=\"Butterfly body\" data-natural=\"#4a3b35\"/><g fill=\"none\" stroke=\"#3f3430\" stroke-width=\"1\" pointer-events=\"none\"><path d=\"M147 119 Q137 98 132 91 M153 119 Q163 98 168 91 M146 173 Q137 200 134 210 M154 173 Q163 200 166 210\"/><circle cx=\"131\" cy=\"90\" r=\"2\"/><circle cx=\"169\" cy=\"90\" r=\"2\"/></g></svg>",
+  "regions": [
+    {
+      "id": "left-fore",
+      "mirrorId": "right-fore",
+      "naturalFill": "#563b35",
+      "label": "Left forewing outer rim"
+    },
+    {
+      "id": "left-fore-window",
+      "mirrorId": "right-fore-window",
+      "naturalFill": "#e9ece2",
+      "label": "Left clear forewing panel"
+    },
+    {
+      "id": "left-fore-tip",
+      "mirrorId": "right-fore-tip",
+      "naturalFill": "#f7f5e8",
+      "label": "Left forewing pale tip"
+    },
+    {
+      "id": "left-hind",
+      "mirrorId": "right-hind",
+      "naturalFill": "#593d37",
+      "label": "Left hindwing outer rim"
+    },
+    {
+      "id": "left-hind-window",
+      "mirrorId": "right-hind-window",
+      "naturalFill": "#e9ece2",
+      "label": "Left clear hindwing panel"
+    },
+    {
+      "id": "left-hind-spot",
+      "mirrorId": "right-hind-spot",
+      "naturalFill": "#f7f5e8",
+      "label": "Left pale hindwing mark"
+    },
+    {
+      "id": "right-fore",
+      "mirrorId": "left-fore",
+      "naturalFill": "#563b35",
+      "label": "Right forewing outer rim"
+    },
+    {
+      "id": "right-fore-window",
+      "mirrorId": "left-fore-window",
+      "naturalFill": "#e9ece2",
+      "label": "Right clear forewing panel"
+    },
+    {
+      "id": "right-fore-tip",
+      "mirrorId": "left-fore-tip",
+      "naturalFill": "#f7f5e8",
+      "label": "Right forewing pale tip"
+    },
+    {
+      "id": "right-hind",
+      "mirrorId": "left-hind",
+      "naturalFill": "#593d37",
+      "label": "Right hindwing outer rim"
+    },
+    {
+      "id": "right-hind-window",
+      "mirrorId": "left-hind-window",
+      "naturalFill": "#e9ece2",
+      "label": "Right clear hindwing panel"
+    },
+    {
+      "id": "right-hind-spot",
+      "mirrorId": "left-hind-spot",
+      "naturalFill": "#f7f5e8",
+      "label": "Right pale hindwing mark"
+    },
+    {
+      "id": "head",
+      "mirrorId": null,
+      "naturalFill": "#4a3b35",
+      "label": "Butterfly head"
+    },
+    {
+      "id": "body",
+      "mirrorId": null,
+      "naturalFill": "#4a3b35",
+      "label": "Butterfly body"
+    }
+  ],
+  "additionalSource": {
+    "title": "Field evidence for colour mimicry · G. andromica wing scales",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7986869/"
+  }
+}

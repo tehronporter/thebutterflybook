@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SESSION = requests.Session()
 SESSION.headers['User-Agent'] = 'TheButterflyBook/1.0 (photo preparation)'
 
-for path in sorted((ROOT / 'lib').glob('species-*.json')):
+for path in [ROOT / 'lib' / f'species-{slug}.json' for slug in ('eighty-eight', 'glasswing', 'blue-morpho')]:
     species = json.loads(path.read_text())
     photo = species['photo']
     destination = ROOT / 'public' / photo['src'].lstrip('/')
