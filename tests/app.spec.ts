@@ -4,7 +4,7 @@ test.use({browserName:'webkit'});
 const base=process.env.BASE_URL||'http://localhost:3000';
 test('all species, coloring, persistence, collection, downloads, print',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto(base);await expect(page.getByRole('heading',{name:'The Butterfly Book.'})).toBeVisible();
+ await page.goto(base);await expect(page.getByRole('heading',{name:'A field guide for color & curiosity.'})).toBeVisible();
  for(const s of species){await page.goto(`${base}/butterflies/${s.slug}`);await expect(page.getByRole('heading',{name:s.commonName,exact:true})).toBeVisible();await expect(page.locator('.canvas [data-region]')).toHaveCount(s.regions.length);}
  errors.length=0;await page.goto(base+'/butterflies/monarch');const left=page.locator('.canvas [data-region="left-0"]');const right=page.locator('.canvas [data-region="right-0"]');await page.getByRole('button',{name:'Creative color #E65E50'}).click();await left.click();await expect(left).toHaveAttribute('fill','#E65E50');await expect(right).toHaveAttribute('fill','#E65E50');await page.getByRole('button',{name:'↶ Undo'}).click();await expect(left).toHaveAttribute('fill','white');await page.getByRole('button',{name:'↷ Redo'}).click();await expect(left).toHaveAttribute('fill','#E65E50');await page.reload();await expect(left).toHaveAttribute('fill','#E65E50');
  await page.getByRole('checkbox',{name:'Color both wings together'}).uncheck();await page.getByRole('button',{name:'Creative color #4776A8'}).click();await left.click();await expect(left).toHaveAttribute('fill','#4776A8');await expect(right).toHaveAttribute('fill','#E65E50');
