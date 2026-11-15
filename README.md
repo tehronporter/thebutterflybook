@@ -21,7 +21,7 @@ End-to-end tests need Playwright WebKit (`npx playwright install webkit`). PDF g
 ## Product
 
 - `/` introduces the three Ecuador butterflies and links to each coloring studio.
-- `/butterflies/[slug]` provides photographic reference, three field notes, an elevation note, reflection prompt, saved coloring, undo/redo, symmetry where applicable, natural colors, PNG/SVG download, and a private sighting journal.
+- `/butterflies/[slug]` provides a full photographic reference, three field notes, an elevation note, reflection prompt, saved coloring, page zoom, undo/redo, symmetry where applicable, natural colors, PNG/SVG download, and a private sighting journal. Larger color controls and named regions support phone and tablet coloring.
 - `/collection` shows progress and offers versioned JSON backup/import.
 - `/print` offers a ten-page US Letter PDF and custom browser printing with selectable species, field guide pages, saved colors, and US Letter or A4.
 - `/credits` links every photographer, photo license, file page, and research source.
@@ -30,7 +30,7 @@ The PDF at `public/downloads/the-butterfly-book-volume-01.pdf` has a photographi
 
 ## Data and rights
 
-Species records and SVG artwork live in `lib/species-*.json`. The three active species are selected in `lib/species.ts`; earlier species records remain in the repository so existing saved browser data remains readable. `scripts/validate_art.py` checks the active vector regions and paired coloring IDs. `scripts/generate_book.py` uses the same vector artwork for the PDF. Photographs live in `public/photos` and can be re-fetched using `scripts/prepare_photos.py`.
+Species records and SVG artwork live in `lib/species-*.json`. The three active species are selected in `lib/species.ts`; earlier species records remain in the repository so existing saved browser data remains readable. `scripts/redraw_species.py` produces the reference-guided SVG paths while preserving existing color-region IDs. `scripts/validate_art.py` checks the active vector regions and paired coloring IDs. `scripts/generate_book.py` uses the same vector artwork for the PDF. Photographs live in `public/photos` and can be re-fetched using `scripts/prepare_photos.py`.
 
 The photos are licensed CC BY-SA 4.0, CC BY-SA 2.0, and CC BY 4.0 respectively. Each transformed WebP retains its photo's license. Photographer and license attribution appear beside images, on `/credits`, and in the PDF. Commercial use is allowed under these licenses, with attribution and share-alike obligations where applicable. The copyright and license records were reviewed 15 November 2026. Species notes link to Butterflies and Moths of North America, Florida Museum of Natural History, and primary research articles. When an exact elevation for a photographed individual was unavailable, the app says so rather than assigning one.
 

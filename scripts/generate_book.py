@@ -29,10 +29,17 @@ def artwork(page, species, rect):
     page.show_pdf_page(rect, pdf, 0, keep_proportion=True)
 
 
-def photo(page, species, rect):
+def photo(page, species, rect, contain=False):
     with Image.open(ROOT / 'public' / species['photo']['src'].lstrip('/')) as img:
         img = ImageOps.exif_transpose(img).convert('RGB')
-        img = ImageOps.fit(img, (int(rect.width * 3), int(rect.height * 3)), method=Image.Resampling.LANCZOS)
+        target = (int(rect.width * 3), int(rect.height * 3))
+        if contain:
+            img = ImageOps.contain(img, target, method=Image.Resampling.LANCZOS)
+            frame = Image.new('RGB', target, '#f7f6f2')
+            frame.paste(img, ((target[0] - img.width) // 2, (target[1] - img.height) // 2))
+            img = frame
+        else:
+            img = ImageOps.fit(img, target, method=Image.Resampling.LANCZOS)
         data = io.BytesIO()
         img.save(data, 'JPEG', quality=88, optimize=True)
     page.insert_image(rect, stream=data.getvalue(), keep_proportion=False)
@@ -105,21 +112,21 @@ for i, species in enumerate(SPECIES):
     write(left, (45, 54), f'FIELD GUIDE  /  {i+1:02} OF 03', 9, color=MUTED)
     write(left, (45, 99), species['commonName'], 30, font='tiro')
     write(left, (45, 120), species['scientificName'], 11, font='tiit', color=MUTED)
-    photo(left, species, pymupdf.Rect(45, 148, 567, 424))
-    write(left, (45, 441), f"PHOTOGRAPHED IN {species['photo']['location'].upper()}", 8, color=MUTED)
-    write(left, (45, 457), f"Photo: {species['photo']['credit']} / {species['photo']['license']}", 8, color=MUTED)
-    write(left, (45, 484), f"Elevation: {species['elevation']}", 9)
-    line(left, 499)
-    write(left, (45, 523), 'THREE THINGS TO NOTICE', 8, color=MUTED)
-    y = 546
+    photo(left, species, pymupdf.Rect(45, 148, 567, 480), contain=True)
+    write(left, (45, 496), f"PHOTOGRAPHED IN {species['photo']['location'].upper()}", 8, color=MUTED)
+    write(left, (45, 512), f"Photo: {species['photo']['credit']} / {species['photo']['license']}", 8, color=MUTED)
+    write(left, (45, 535), f"Elevation: {species['elevation']}", 9)
+    line(left, 548)
+    write(left, (45, 570), 'THREE THINGS TO NOTICE', 8, color=MUTED)
+    y = 594
     for j, note in enumerate(species['fieldNotes']):
         for k, sentence in enumerate(wrap(f'{j+1:02}  {note}', 82)):
             write(left, (45, y + k * 14), sentence, 10)
-        y += 37
-    line(left, 664)
-    write(left, (45, 685), species['reflection'], 11, font='tiro')
-    write(left, (45, 710), '____________________________________________________________________________', 8, color=MUTED)
-    write(left, (45, 728), '____________________________________________________________________________', 8, color=MUTED)
+        y += 29
+    line(left, 686)
+    write(left, (45, 706), species['reflection'], 11, font='tiro')
+    write(left, (45, 727), '____________________________________________________________________________', 8, color=MUTED)
+    write(left, (45, 741), '____________________________________________________________________________', 8, color=MUTED)
     footer(left, len(book))
 
     right = book.new_page(width=612, height=792)

@@ -22,73 +22,37 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11557224/",
     "accessed": "2026-11-15"
   },
-  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 260\"><defs data-butterfly-detail=\"true\"><clipPath id=\"blue-morpho-wing-clip\"><path d=\"M150 117 C119 71 62 24 15 23 C1 57 12 111 45 142 Q90 166 150 139 Z\" /><path d=\"M150 139 Q75 128 45 142 C14 173 46 218 89 226 Q139 227 150 139 Z\" /></clipPath></defs><g fill=\"none\" stroke=\"#a4a99b\" stroke-width=\".8\" pointer-events=\"none\"><path d=\"M18 220 Q35 185 57 170 M24 204 Q12 195 8 182 M34 190 Q46 174 61 170 M278 218 Q265 184 245 170 M269 196 Q281 186 292 176\"/><path d=\"M22 201 Q13 191 9 181 Q25 185 22 201 M40 185 Q42 173 58 169 Q57 185 40 185 M265 194 Q252 188 247 174 Q261 179 265 194 M278 191 Q280 178 291 176 Q294 186 278 191\"/></g><g><path d=\"M150 117 C119 71 62 24 15 23 C1 57 12 111 45 142 Q90 166 150 139 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"left-0\" data-natural=\"#1689dd\" role=\"button\" tabindex=\"0\" aria-label=\"Left wing, area 1\" /><path d=\"M150 139 Q75 128 45 142 C14 173 46 218 89 226 Q139 227 150 139 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"left-1\" data-natural=\"#1689dd\" role=\"button\" tabindex=\"0\" aria-label=\"Left wing, area 2\" /><g class=\"wing-engraving\" clip-path=\"url(#blue-morpho-wing-clip)\" fill=\"none\" stroke=\"#252525\" stroke-width=\".65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pointer-events=\"none\" opacity=\".9\"><path d=\"M145 119 Q105 68 25 35\" /><path d=\"M144 123 Q98 87 20 67\" /><path d=\"M144 127 Q100 112 28 103\" /><path d=\"M141 132 Q104 129 51 132\" /><path d=\"M144 144 Q95 144 43 157\" /><path d=\"M143 149 Q94 168 48 188\" /><path d=\"M142 152 Q107 196 79 218\" /><path d=\"M145 158 Q130 204 110 221\" /><path d=\"M82 65 Q78 76 76 88\" /><path d=\"M101 81 Q97 93 94 104\" /><path d=\"M117 101 Q113 110 110 122\" /><path d=\"M62 172 Q72 178 78 188\" /><path d=\"M80 191 Q89 193 95 204\" /><path d=\"M35 46 Q59 49 81 62\" /><path d=\"M40 74 Q72 81 99 98\" /><path d=\"M33 105 Q69 111 99 123\" /><path d=\"M51 142 Q75 139 96 141\" /><path d=\"M45 163 Q57 181 78 192\" /><path d=\"M60 204 Q86 211 105 201\" /><path d=\"M89 212 Q115 202 128 181\" /><path d=\"M94 83 Q106 92 115 105\" /><path d=\"M61 118 Q90 123 113 132\" /><path d=\"M70 151 Q100 155 124 148\" /><path d=\"M67 179 Q86 172 104 162\" /><g stroke-width=\".45\" opacity=\".52\"><path d=\"M38 77 l5 8 M43 157 l5 7\" /><path d=\"M51 82 l5 8 M56 161 l5 7\" /><path d=\"M64 87 l5 8 M69 165 l5 7\" /><path d=\"M77 92 l5 8 M82 169 l5 7\" /><path d=\"M90 97 l5 8 M95 173 l5 7\" /><path d=\"M103 102 l5 8 M108 177 l5 7\" /><path d=\"M116 107 l5 8 M121 181 l5 7\" /></g></g><path d=\"M150 117 C119 71 62 24 15 23 C1 57 12 111 45 142 Q27 110 28 85 Q19 55 26 40 Q90 63 150 117 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"left-2\" data-natural=\"#17243c\" role=\"button\" tabindex=\"0\" aria-label=\"Left wing, area 3\" /><path d=\"M45 142 C14 173 46 218 89 226 Q139 227 150 139 Q126 211 89 212 Q43 205 45 142 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"left-3\" data-natural=\"#17243c\" role=\"button\" tabindex=\"0\" aria-label=\"Left wing, area 4\" /><path d=\"M145 123 Q86 60 30 44 Q44 89 85 104 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"left-4\" data-natural=\"#75c9f2\" role=\"button\" tabindex=\"0\" aria-label=\"Left wing, area 5\" /><circle cx=\"26\" cy=\"32\" r=\"2.8\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"left-border-spot-1\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing border spot 1\" /><circle cx=\"39\" cy=\"36\" r=\"2.9\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"left-border-spot-2\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing border spot 2\" /><circle cx=\"53\" cy=\"42\" r=\"2.8\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"left-border-spot-3\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing border spot 3\" /><circle cx=\"69\" cy=\"50\" r=\"2.7\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"left-border-spot-4\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing border spot 4\" /><circle cx=\"85\" cy=\"61\" r=\"2.5\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"left-border-spot-5\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing border spot 5\" /><circle cx=\"100\" cy=\"73\" r=\"2.3\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"left-border-spot-6\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing border spot 6\" /></g><g transform=\"translate(300 0) scale(-1 1)\"><path d=\"M150 117 C119 71 62 24 15 23 C1 57 12 111 45 142 Q90 166 150 139 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"right-0\" data-natural=\"#1689dd\" role=\"button\" tabindex=\"0\" aria-label=\"Right wing, area 1\" /><path d=\"M150 139 Q75 128 45 142 C14 173 46 218 89 226 Q139 227 150 139 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"right-1\" data-natural=\"#1689dd\" role=\"button\" tabindex=\"0\" aria-label=\"Right wing, area 2\" /><g class=\"wing-engraving\" clip-path=\"url(#blue-morpho-wing-clip)\" fill=\"none\" stroke=\"#252525\" stroke-width=\".65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pointer-events=\"none\" opacity=\".9\"><path d=\"M145 119 Q105 68 25 35\" /><path d=\"M144 123 Q98 87 20 67\" /><path d=\"M144 127 Q100 112 28 103\" /><path d=\"M141 132 Q104 129 51 132\" /><path d=\"M144 144 Q95 144 43 157\" /><path d=\"M143 149 Q94 168 48 188\" /><path d=\"M142 152 Q107 196 79 218\" /><path d=\"M145 158 Q130 204 110 221\" /><path d=\"M82 65 Q78 76 76 88\" /><path d=\"M101 81 Q97 93 94 104\" /><path d=\"M117 101 Q113 110 110 122\" /><path d=\"M62 172 Q72 178 78 188\" /><path d=\"M80 191 Q89 193 95 204\" /><path d=\"M35 46 Q59 49 81 62\" /><path d=\"M40 74 Q72 81 99 98\" /><path d=\"M33 105 Q69 111 99 123\" /><path d=\"M51 142 Q75 139 96 141\" /><path d=\"M45 163 Q57 181 78 192\" /><path d=\"M60 204 Q86 211 105 201\" /><path d=\"M89 212 Q115 202 128 181\" /><path d=\"M94 83 Q106 92 115 105\" /><path d=\"M61 118 Q90 123 113 132\" /><path d=\"M70 151 Q100 155 124 148\" /><path d=\"M67 179 Q86 172 104 162\" /><g stroke-width=\".45\" opacity=\".52\"><path d=\"M38 77 l5 8 M43 157 l5 7\" /><path d=\"M51 82 l5 8 M56 161 l5 7\" /><path d=\"M64 87 l5 8 M69 165 l5 7\" /><path d=\"M77 92 l5 8 M82 169 l5 7\" /><path d=\"M90 97 l5 8 M95 173 l5 7\" /><path d=\"M103 102 l5 8 M108 177 l5 7\" /><path d=\"M116 107 l5 8 M121 181 l5 7\" /></g></g><path d=\"M150 117 C119 71 62 24 15 23 C1 57 12 111 45 142 Q27 110 28 85 Q19 55 26 40 Q90 63 150 117 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"right-2\" data-natural=\"#17243c\" role=\"button\" tabindex=\"0\" aria-label=\"Right wing, area 3\" /><path d=\"M45 142 C14 173 46 218 89 226 Q139 227 150 139 Q126 211 89 212 Q43 205 45 142 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"right-3\" data-natural=\"#17243c\" role=\"button\" tabindex=\"0\" aria-label=\"Right wing, area 4\" /><path d=\"M145 123 Q86 60 30 44 Q44 89 85 104 Z\" fill=\"white\" stroke=\"#242424\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"right-4\" data-natural=\"#75c9f2\" role=\"button\" tabindex=\"0\" aria-label=\"Right wing, area 5\" /><circle cx=\"26\" cy=\"32\" r=\"2.8\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"right-border-spot-1\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing border spot 1\" /><circle cx=\"39\" cy=\"36\" r=\"2.9\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"right-border-spot-2\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing border spot 2\" /><circle cx=\"53\" cy=\"42\" r=\"2.8\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"right-border-spot-3\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing border spot 3\" /><circle cx=\"69\" cy=\"50\" r=\"2.7\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"right-border-spot-4\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing border spot 4\" /><circle cx=\"85\" cy=\"61\" r=\"2.5\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"right-border-spot-5\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing border spot 5\" /><circle cx=\"100\" cy=\"73\" r=\"2.3\" fill=\"white\" stroke=\"#242424\" stroke-width=\".7\" data-region=\"right-border-spot-6\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing border spot 6\" /></g><g fill=\"white\" stroke=\"#242424\" stroke-width=\"1.5\"><ellipse cx=\"150\" cy=\"143\" rx=\"6\" ry=\"43\" data-region=\"body\" data-natural=\"#17243c\" role=\"button\" tabindex=\"0\" aria-label=\"Body\" /><ellipse cx=\"150\" cy=\"106\" rx=\"7\" ry=\"9\" /><circle cx=\"150\" cy=\"95\" r=\"5\" /><path d=\"M147 91 Q137 66 129 65 M153 91 Q163 66 171 65\" fill=\"none\" /><circle cx=\"129\" cy=\"65\" r=\"2\" /><circle cx=\"171\" cy=\"65\" r=\"2\" /></g></svg>",
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 260\"><g fill=\"none\" stroke=\"#8d9389\" stroke-width=\"0.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pointer-events=\"none\"><path d=\"M11 232 Q25 210 41 200 M20 221 Q11 212 9 202 M28 214 Q39 203 51 203 M282 230 Q273 212 257 200 M275 216 Q286 206 293 199\"/><path d=\"M18 216 Q8 211 9 202 Q22 205 18 216 M30 212 Q39 200 51 203 Q46 214 30 212 M279 213 Q286 202 293 199 Q294 212 279 213\"/></g><g transform=\"\"><path d=\"M147 108 Q120 87 88 68 Q53 47 28 49 C13 52 13 67 17 84 Q22 111 48 131 Q86 154 147 139 Z\"  fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"left-0\" data-natural=\"#1689dd\" role=\"button\" tabindex=\"0\" aria-label=\"Left blue forewing\"/><path d=\"M146 137 Q105 126 69 133 Q43 147 40 175 Q36 198 54 215 Q70 232 98 232 Q126 232 147 201 Z\"  fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"left-1\" data-natural=\"#1689dd\" role=\"button\" tabindex=\"0\" aria-label=\"Left blue hindwing\"/><path d=\"M29 49 Q57 45 94 69 Q125 91 147 110 Q126 103 111 95 Q73 67 39 63 Q28 67 31 81 Q33 98 50 115 Q34 105 23 88 Q11 67 18 55 Q21 50 29 49 Z\"  fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"left-2\" data-natural=\"#17243c\" role=\"button\" tabindex=\"0\" aria-label=\"Left dark forewing margin\"/><path d=\"M41 172 Q34 185 42 203 Q46 215 57 222 Q67 232 78 230 Q88 238 99 233 Q115 239 126 226 Q140 214 147 197 Q124 221 101 223 Q74 223 57 205 Q45 191 41 172 Z\"  fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"left-3\" data-natural=\"#17243c\" role=\"button\" tabindex=\"0\" aria-label=\"Left scalloped hindwing margin\"/><path d=\"M143 111 Q110 90 79 76 Q105 87 130 119 Q112 137 78 145 Q117 145 145 135 Z\"  fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"left-4\" data-natural=\"#75c9f2\" role=\"button\" tabindex=\"0\" aria-label=\"Left luminous blue basal wing\"/><circle cx=\"25\" cy=\"63\" r=\"3.0\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"left-border-spot-1\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing border spot 1\"/><circle cx=\"26\" cy=\"78\" r=\"2.8\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"left-border-spot-2\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing border spot 2\"/><circle cx=\"32\" cy=\"94\" r=\"2.7\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"left-border-spot-3\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing border spot 3\"/><circle cx=\"43\" cy=\"109\" r=\"2.5\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"left-border-spot-4\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left forewing border spot 4\"/><circle cx=\"52\" cy=\"208\" r=\"2.8\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"left-border-spot-5\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left hindwing border spot 5\"/><circle cx=\"68\" cy=\"220\" r=\"2.7\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"left-border-spot-6\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Left hindwing border spot 6\"/><g fill=\"none\" stroke=\"#4c5353\" stroke-width=\"0.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pointer-events=\"none\"><path d=\"M145 121 Q105 93 34 60 M145 122 Q104 104 29 79 M145 123 Q103 119 45 113 M144 124 Q108 131 63 136 M143 143 Q97 143 55 159 M143 146 Q105 161 51 183 M143 151 Q118 182 73 214 M144 153 Q125 192 105 221\"/><path d=\"M50 70 Q65 77 71 84 M57 81 Q73 87 79 94 M47 96 Q59 103 66 109 M71 145 Q80 149 85 154 M57 172 Q69 174 76 181 M65 200 Q78 197 85 204\"/></g></g><g transform=\"translate(300 0) scale(-1 1)\"><path d=\"M147 108 Q120 87 88 68 Q53 47 28 49 C13 52 13 67 17 84 Q22 111 48 131 Q86 154 147 139 Z\"  fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"right-0\" data-natural=\"#1689dd\" role=\"button\" tabindex=\"0\" aria-label=\"Right blue forewing\"/><path d=\"M146 137 Q105 126 69 133 Q43 147 40 175 Q36 198 54 215 Q70 232 98 232 Q126 232 147 201 Z\"  fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"right-1\" data-natural=\"#1689dd\" role=\"button\" tabindex=\"0\" aria-label=\"Right blue hindwing\"/><path d=\"M29 49 Q57 45 94 69 Q125 91 147 110 Q126 103 111 95 Q73 67 39 63 Q28 67 31 81 Q33 98 50 115 Q34 105 23 88 Q11 67 18 55 Q21 50 29 49 Z\"  fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"right-2\" data-natural=\"#17243c\" role=\"button\" tabindex=\"0\" aria-label=\"Right dark forewing margin\"/><path d=\"M41 172 Q34 185 42 203 Q46 215 57 222 Q67 232 78 230 Q88 238 99 233 Q115 239 126 226 Q140 214 147 197 Q124 221 101 223 Q74 223 57 205 Q45 191 41 172 Z\"  fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"right-3\" data-natural=\"#17243c\" role=\"button\" tabindex=\"0\" aria-label=\"Right scalloped hindwing margin\"/><path d=\"M143 111 Q110 90 79 76 Q105 87 130 119 Q112 137 78 145 Q117 145 145 135 Z\"  fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"right-4\" data-natural=\"#75c9f2\" role=\"button\" tabindex=\"0\" aria-label=\"Right luminous blue basal wing\"/><circle cx=\"25\" cy=\"63\" r=\"3.0\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"right-border-spot-1\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing border spot 1\"/><circle cx=\"26\" cy=\"78\" r=\"2.8\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"right-border-spot-2\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing border spot 2\"/><circle cx=\"32\" cy=\"94\" r=\"2.7\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"right-border-spot-3\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing border spot 3\"/><circle cx=\"43\" cy=\"109\" r=\"2.5\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"right-border-spot-4\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right forewing border spot 4\"/><circle cx=\"52\" cy=\"208\" r=\"2.8\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"right-border-spot-5\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right hindwing border spot 5\"/><circle cx=\"68\" cy=\"220\" r=\"2.7\" fill=\"white\" stroke=\"#242521\" stroke-width=\"0.65\" stroke-linejoin=\"round\" data-region=\"right-border-spot-6\" data-natural=\"#f7f1df\" role=\"button\" tabindex=\"0\" aria-label=\"Right hindwing border spot 6\"/><g fill=\"none\" stroke=\"#4c5353\" stroke-width=\"0.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pointer-events=\"none\"><path d=\"M145 121 Q105 93 34 60 M145 122 Q104 104 29 79 M145 123 Q103 119 45 113 M144 124 Q108 131 63 136 M143 143 Q97 143 55 159 M143 146 Q105 161 51 183 M143 151 Q118 182 73 214 M144 153 Q125 192 105 221\"/><path d=\"M50 70 Q65 77 71 84 M57 81 Q73 87 79 94 M47 96 Q59 103 66 109 M71 145 Q80 149 85 154 M57 172 Q69 174 76 181 M65 200 Q78 197 85 204\"/></g></g><ellipse cx=\"150\" cy=\"153\" rx=\"6\" ry=\"45\" fill=\"white\" stroke=\"#242521\" stroke-width=\"1.35\" stroke-linejoin=\"round\" data-region=\"body\" data-natural=\"#17243c\" role=\"button\" tabindex=\"0\" aria-label=\"Segmented butterfly body\"/><g fill=\"none\" stroke=\"#4a4b45\" stroke-width=\"0.78\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pointer-events=\"none\"><path d=\"M147 111 Q139 91 133 84 M153 111 Q161 91 167 84 M145 135 Q155 138 155 139 M145 148 Q155 151 155 152 M145 161 Q155 164 155 165 M145 174 Q155 177 155 178 M147 187 Q153 190 153 191\"/><circle cx=\"133\" cy=\"84\" r=\"1.8\"/><circle cx=\"167\" cy=\"84\" r=\"1.8\"/></g></svg>",
   "regions": [
     {
       "id": "left-0",
       "mirrorId": "right-0",
       "naturalFill": "#1689dd",
-      "label": "Left wing, area 1"
+      "label": "Left blue forewing"
     },
     {
       "id": "left-1",
       "mirrorId": "right-1",
       "naturalFill": "#1689dd",
-      "label": "Left wing, area 2"
+      "label": "Left blue hindwing"
     },
     {
       "id": "left-2",
       "mirrorId": "right-2",
       "naturalFill": "#17243c",
-      "label": "Left wing, area 3"
+      "label": "Left dark forewing margin"
     },
     {
       "id": "left-3",
       "mirrorId": "right-3",
       "naturalFill": "#17243c",
-      "label": "Left wing, area 4"
+      "label": "Left scalloped hindwing margin"
     },
     {
       "id": "left-4",
       "mirrorId": "right-4",
       "naturalFill": "#75c9f2",
-      "label": "Left wing, area 5"
-    },
-    {
-      "id": "right-0",
-      "mirrorId": "left-0",
-      "naturalFill": "#1689dd",
-      "label": "Right wing, area 1"
-    },
-    {
-      "id": "right-1",
-      "mirrorId": "left-1",
-      "naturalFill": "#1689dd",
-      "label": "Right wing, area 2"
-    },
-    {
-      "id": "right-2",
-      "mirrorId": "left-2",
-      "naturalFill": "#17243c",
-      "label": "Right wing, area 3"
-    },
-    {
-      "id": "right-3",
-      "mirrorId": "left-3",
-      "naturalFill": "#17243c",
-      "label": "Right wing, area 4"
-    },
-    {
-      "id": "right-4",
-      "mirrorId": "left-4",
-      "naturalFill": "#75c9f2",
-      "label": "Right wing, area 5"
-    },
-    {
-      "id": "body",
-      "mirrorId": null,
-      "naturalFill": "#17243c",
-      "label": "Body"
+      "label": "Left luminous blue basal wing"
     },
     {
       "id": "left-border-spot-1",
@@ -118,13 +82,43 @@
       "id": "left-border-spot-5",
       "mirrorId": "right-border-spot-5",
       "naturalFill": "#f7f1df",
-      "label": "Left forewing border spot 5"
+      "label": "Left hindwing border spot 5"
     },
     {
       "id": "left-border-spot-6",
       "mirrorId": "right-border-spot-6",
       "naturalFill": "#f7f1df",
-      "label": "Left forewing border spot 6"
+      "label": "Left hindwing border spot 6"
+    },
+    {
+      "id": "right-0",
+      "mirrorId": "left-0",
+      "naturalFill": "#1689dd",
+      "label": "Right blue forewing"
+    },
+    {
+      "id": "right-1",
+      "mirrorId": "left-1",
+      "naturalFill": "#1689dd",
+      "label": "Right blue hindwing"
+    },
+    {
+      "id": "right-2",
+      "mirrorId": "left-2",
+      "naturalFill": "#17243c",
+      "label": "Right dark forewing margin"
+    },
+    {
+      "id": "right-3",
+      "mirrorId": "left-3",
+      "naturalFill": "#17243c",
+      "label": "Right scalloped hindwing margin"
+    },
+    {
+      "id": "right-4",
+      "mirrorId": "left-4",
+      "naturalFill": "#75c9f2",
+      "label": "Right luminous blue basal wing"
     },
     {
       "id": "right-border-spot-1",
@@ -154,18 +148,24 @@
       "id": "right-border-spot-5",
       "mirrorId": "left-border-spot-5",
       "naturalFill": "#f7f1df",
-      "label": "Right forewing border spot 5"
+      "label": "Right hindwing border spot 5"
     },
     {
       "id": "right-border-spot-6",
       "mirrorId": "left-border-spot-6",
       "naturalFill": "#f7f1df",
-      "label": "Right forewing border spot 6"
+      "label": "Right hindwing border spot 6"
+    },
+    {
+      "id": "body",
+      "mirrorId": null,
+      "naturalFill": "#17243c",
+      "label": "Segmented butterfly body"
     }
   ],
   "photo": {
     "src": "/photos/blue-morpho.webp",
-    "alt": "Blue Morpho photographed in Ecuador",
+    "alt": "Blue morpho photographed with wings spread in Ecuador, showing luminous blue wing fields, dark scalloped margins, and pale edge spots",
     "view": "Dorsal view",
     "location": "Ecuador",
     "credit": "djcooker",
