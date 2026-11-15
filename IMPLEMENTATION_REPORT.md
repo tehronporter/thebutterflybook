@@ -19,6 +19,6 @@ The initial release has six independent species pages and four public routes. Co
 - [ ] Lepidopterist review of fine wing markings, form, and anatomical accuracy before commercial publication.
 - [ ] Compare multiple licensed specimen photographs for each species and document the specimen form.
 
-Public deployment: https://thebutterflybook.vercel.app (production deployment `dpl_4gyG5SUn1FtmCi2qAUtJo74njNxS`, Ready). All ten public paths returned HTTP 200; the live PDF opened as 10 pages.
+Git-connected public deployment: https://the-butterfly-book.vercel.app (`tehronporter/thebutterflybook`, `main`, Vercel project `the-butterfly-book`). Earlier CLI deployment: https://thebutterflybook.vercel.app. All ten public paths returned HTTP 200; the live PDF opened as 10 pages.
 
 The current art is provisional simplified coloring art, not a field identification plate. Flat SVG cannot depict the Blue Morpho's iridescence. The site embeds no third-party photos. Local progress is specific to one browser and can be moved with JSON backup.

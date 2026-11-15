@@ -39,7 +39,7 @@ Coloring, completion, and sighting notes are saved only in this browser's localS
 
 ## Deploy
 
-The source is hosted at [tehronporter/thebutterflybook](https://github.com/tehronporter/thebutterflybook). The `main` branch is connected to the new Vercel project `the-butterfly-book` for automatic production deploys. The earlier CLI deployment remains at [thebutterflybook.vercel.app](https://thebutterflybook.vercel.app). The project is static friendly and can also deploy directly to Vercel:
+The source is hosted at [tehronporter/thebutterflybook](https://github.com/tehronporter/thebutterflybook). The `main` branch is connected to the new Vercel project `the-butterfly-book` for automatic production deploys. The Git-connected production site is [the-butterfly-book.vercel.app](https://the-butterfly-book.vercel.app). The earlier CLI deployment remains at [thebutterflybook.vercel.app](https://thebutterflybook.vercel.app). The project is static friendly and can also deploy directly to Vercel:
 
 ```bash
 npx vercel --prod
